@@ -37,12 +37,7 @@ chmod 755 istore-reinstall.run
 iStore 官方的软件仓库支持 `x86_64`，`arm64` 两个架构，这两个架构的基于 **OpenWRT** 固件都可以直接集成 iStore
 
 只需在固件编译目录下执行：
-```shell
-echo >> feeds.conf.default
-echo 'src-git istore https://github.com/linkease/istore;main' >> feeds.conf.default
-./scripts/feeds update istore
-./scripts/feeds install -d y -p istore luci-app-store
-```
+is-opkg install luci-i18n-quickstart-zh-cn
 
 然后正常编译固件即可
 
