@@ -28,7 +28,7 @@ iStore 的无法弥补的缺陷：
 ```
 opkg update || exit 1
 cd /tmp
-wget https://github.com/linkease/openwrt-app-actions/raw/main/applications/luci-app-systools/root/usr/share/systools/istore-reinstall.run
+wget https://github.com/Truth98K/openwrt-app-actions/raw/main/applications/luci-app-systools/root/usr/share/systools/istore-reinstall.run
 chmod 755 istore-reinstall.run
 ./istore-reinstall.run
 ```
